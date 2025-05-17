@@ -104,3 +104,11 @@ Dashboard ini dibangun menggunakan Metabase dan dirancang untuk menganalisis emp
 - Average Work-Life Balance
 
      Menunjukkan rata-rata persepsi karyawan terhadap keseimbangan antara pekerjaan dan kehidupan pribadi.
+
+## Conclusion
+
+Dari hasil visualisasi, terdapat beberapa poin penting yang dapat disimpulkan:
+
+## Rekomendasi Action Items
+
+Berikan beberapa rekomendasi action items yang harus dilakukan perusahaan guna menyelesaikan permasalahan atau mencapai target mereka.

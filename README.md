@@ -1,5 +1,6 @@
 # Proyek Pertama: Menyelesaikan Permasalahan Perusahaan Jaya Jaya Maju
 
+Proyek ini bertujuan untuk menyelesaikan masalah attrition (pengunduran diri karyawan) di sebuah perusahaan bernama Jaya Jaya Maju.
 
 ## Struktur Direktori
 
@@ -38,7 +39,7 @@ Penjelasan:
 - `notebook.ipynb` - Jupyter Notebook berisi proses pemodelan, analisis data, training model, dll.
 - `metabase.db.mv.db` - File database dari Metabase yang berisi data, pertanyaan yang sudah disimpan, dan dashboard visualisasi.
 
-## Persiapan
+## Persiapan Business dashboarding dengan Metabase
 
 Sumber data yang digunakan merupakan dataset [Jaya Jaya Maju](https://github.com/dicodingacademy/dicoding_dataset/tree/main/employee).
 
@@ -76,10 +77,4 @@ Lalu, buka browser dan navigasikan http://localhost:3000/setup untuk mengakses d
   df.to_sql('dataset', engine)
   ```
 
-## Conclusion
-
-Dari hasil visualisasi, terdapat beberapa poin penting yang dapat disimpulkan:
-
-## Rekomendasi Action Items
-
-Berikan beberapa rekomendasi action items yang harus dilakukan perusahaan guna menyelesaikan permasalahan atau mencapai target mereka.
+## Machine Learning Modeling
