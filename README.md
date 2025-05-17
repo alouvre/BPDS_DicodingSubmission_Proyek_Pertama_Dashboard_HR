@@ -55,7 +55,7 @@ Pastikan semua library yang dibutuhkan telah terinstall:
 pip install -r requirements.txt
 ```
 
-### Setup metabase
+### 🖥️ Setup metabase
 
 Untuk menjalankan Metabase secara lokal menggunakan Docker:
 
@@ -66,10 +66,12 @@ docker run -d -p 3000:3000 --name metabase \
 ```
 
 Setelah container berjalan, buka browser dan akses:
-🌐 http://localhost:3000/setup
-untuk mulai menggunakan dashboard Metabase dan melihat visualisasi data.
 
-### Setup supabase
+🌐 http://localhost:3000/setup
+
+Untuk mulai menggunakan dashboard Metabase dan melihat visualisasi data.
+
+### ☁️ Setup supabase
 
 - Buat akun dan login https://supabase.com/dashboard/sign-in.
 - Buat new project
