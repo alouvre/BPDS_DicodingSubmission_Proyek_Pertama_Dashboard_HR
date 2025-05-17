@@ -75,71 +75,71 @@ Dashboard ini dibangun menggunakan Metabase dan dirancang untuk menganalisis emp
 
 ### Metrik Utama
 
-     - **Attrition Rate**
+- **Attrition Rate**
 
      Merupakan metrik kunci yang menunjukkan persentase karyawan yang mengundurkan diri dalam periode tertentu. Angka ini menjadi indikator umum terhadap stabilitas dan kesehatan pengelolaan sumber daya manusia di perusahaan.
 
 ### Visualisasi Berdasarkan Faktor-Faktor Demografis & Pekerjaan
 
-     - Attrition by Marital Status
+- Attrition by Marital Status
 
      Menggambarkan perbedaan tingkat attrition berdasarkan status pernikahan, seperti lajang, menikah, atau bercerai.
 
-     - Attrition by Age
+- Attrition by Age
 
      Menganalisis kelompok usia mana yang memiliki tingkat pengunduran diri paling tinggi, serta pola usia yang berisiko tinggi terhadap attrition.
 
-     - Attrition by Education Field
+- Attrition by Education Field
 
      Menampilkan distribusi attrition berdasarkan latar belakang pendidikan atau bidang studi karyawan.
 
-     - Attrition by Department
+- Attrition by Department
 
      Memvisualisasikan tingkat pengunduran diri berdasarkan departemen (misalnya Sales, R&D, HR), sehingga dapat diidentifikasi area mana yang memerlukan perhatian lebih dalam hal retensi karyawan.
 
-     - Attrition by Job Role
+- Attrition by Job Role
 
      Menganalisis tingkat attrition berdasarkan peran atau jabatan karyawan dalam organisasi.
 
-     - Attrition by Total Working Years
+- Attrition by Total Working Years
 
      Menggambarkan hubungan antara total pengalaman kerja (di seluruh karier, bukan hanya di perusahaan ini) dan kecenderungan untuk mengundurkan diri.
 
-     - Attrition by Years at Company
+- Attrition by Years at Company
 
-      Menunjukkan seberapa lama masa kerja seorang karyawan di perusahaan berkorelasi dengan kemungkinan mereka mengundurkan diri. Umumnya, karyawan dengan masa kerja 0–3 tahun lebih berisiko mengalami attrition.
+     Menunjukkan seberapa lama masa kerja seorang karyawan di perusahaan berkorelasi dengan kemungkinan mereka mengundurkan diri. Umumnya, karyawan dengan masa kerja 0–3 tahun lebih berisiko mengalami attrition.
 
-     - Attrition by Business Travel
+- Attrition by Business Travel
 
      Menganalisis pengaruh frekuensi perjalanan dinas terhadap keputusan karyawan untuk bertahan atau mengundurkan diri.
 
-     - Attrition by OverTime
+- Attrition by OverTime
 
      Menilai dampak jam kerja lembur terhadap kecenderungan karyawan mengalami attrition.
 
-     - Attrition by Monthly Income
+- Attrition by Monthly Income
 
      Visualisasi ini menunjukkan sebaran penghasilan bulanan dari karyawan yang sudah mengundurkan diri. Hal ini bertujuan untuk mengidentifikasi apakah terdapat pola tertentu, seperti kemungkinan karyawan dengan pendapatan lebih rendah lebih rentan terhadap attrition.
 
 ### Rata-Rata Indikator Kualitatif (Persepsi Karyawan)
 
-     - Average Environment Satisfaction
+- Average Environment Satisfaction
 
      Menampilkan rata-rata kepuasan karyawan terhadap lingkungan kerja secara keseluruhan.
 
-     - Average Job Satisfaction
+- Average Job Satisfaction
 
      Menggambarkan rata-rata tingkat kepuasan terhadap pekerjaan masing-masing.
 
-     - Average Job Involvement
+- Average Job Involvement
 
      Menilai rata-rata tingkat keterlibatan karyawan dalam pekerjaannya.
 
-     - Average Relationship Satisfaction
+- Average Relationship Satisfaction
 
      Menyajikan rata-rata kepuasan terhadap hubungan interpersonal di lingkungan kerja.
 
-     - Average Work-Life Balance
+- Average Work-Life Balance
 
      Menunjukkan rata-rata persepsi karyawan terhadap keseimbangan antara pekerjaan dan kehidupan pribadi.
 
