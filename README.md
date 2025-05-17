@@ -41,7 +41,7 @@ Sumber data yang digunakan merupakan dataset [Jaya Jaya Maju](https://github.com
 pip install -r requirements.txt
 ```
 
-### Setup Metabase
+### Setup metabase
 
 Untuk melihat dashboard secara lokal:
 
@@ -53,7 +53,7 @@ docker run -d -p 3000:3000 --name metabase \
 
 Lalu, buka browser dan navigasikan http://localhost:3000/setup untuk mengakses dashboard Metabase..
 
-### Setup Supabase
+### Setup supabase
 
 - Buat akun dan login https://supabase.com/dashboard/sign-in.
 - Buat new project
@@ -73,11 +73,66 @@ Lalu, buka browser dan navigasikan http://localhost:3000/setup untuk mengakses d
 
 ## Business Dashboard
 
-Dashboard ini dirancang untuk menganalisis attrition (tingkat keluar masuk karyawan) dalam perusahaan, menggunakan data karyawan yang telah diklasifikasikan berdasarkan beberapa faktor penting. Komponen utama dari dashboard ini meliputi:
+Dashboard ini dibuat menggunakan Metabase yang dirancang untuk menganalisis attrition (tingkat keluar masuk karyawan) dalam perusahaan, menggunakan data karyawan yang telah diklasifikasikan berdasarkan beberapa faktor penting. Dashboard tersebut menyajikan beberapa visualisasi utama seperti berikut:
+
+- Attrition Rate
+
+     Merupakan metrik utama yang menunjukkan persentase karyawan yang keluar dari perusahaan dalam periode tertentu. Ini adalah indikator keseluruhan kesehatan SDM di perusahaan.
+
+- Attrition by Job Satisfaction
+
+     Menampilkan hubungan antara tingkat kepuasan kerja karyawan (biasanya dalam skala 1–4 atau 1–5) dengan kemungkinan mereka untuk mengundurkan diri.
+
+- Attrition by Marital Status
+
+     Menggambarkan perbedaan tingkat attrition berdasarkan status pernikahan (lajang, menikah, dll).
+
+- Attrition by Age
+
+     Menganalisis kelompok usia mana yang paling rentan terhadap attrition.
+
+- Attrition by Education Field
+
+     Melihat sebaran attrition berdasarkan latar belakang pendidikan atau jurusan studi.
+
+- Attrition by Department
+
+     Visualisasi ini menunjukkan tingkat pengunduran diri karyawan berdasarkan departemen (seperti Sales, HR, R&D). Tujuannya untuk mengidentifikasi departemen mana yang memiliki attrition rate tertinggi.
+
+- Attrition by Job Role
+
+     Menilai tingkat pengunduran diri berdasarkan jabatan atau peran pekerjaan.
+
+- Attrition by Total Working Years
+
+     Memeriksa keterkaitan antara total pengalaman kerja dengan keputusan untuk keluar dari perusahaan.
+
+- Attrition by Years at Company
+
+     Grafik ini menunjukkan hubungan antara lama masa kerja karyawan dengan kemungkinan mereka untuk mengundurkan diri. Misalnya, karyawan dengan masa kerja 0–3 tahun mungkin memiliki risiko keluar lebih tinggi.
+
+- Attrition by Business Travel
+
+     Menilai bagaimana frekuensi perjalanan dinas memengaruhi tingkat attrition.
+
+- Attrition by OverTime
+
+     Menganalisis pengaruh jam lembur terhadap kecenderungan karyawan untuk resign.
+
+- Attrition by WorkLifeBalance
+     
+     Visualisasi ini menggambarkan hubungan antara tingkat keseimbangan kehidupan dan pekerjaan dengan attrition. Semakin buruk work-life balance, biasanya risiko pengunduran diri meningkat.
+
+- Monthly Income Distribution of Employees Who Left
+
+     Visualisasi ini menampilkan distribusi penghasilan bulanan dari karyawan yang sudah resign. Tujuannya untuk melihat apakah ada pola tertentu (misalnya, apakah karyawan dengan gaji lebih rendah cenderung lebih sering resign?).
+
+
 
 
 ## Conclusion
 
+Dari hasil visualisasi, terdapat beberapa poin penting yang dapat disimpulkan:
 
 
 ## Rekomendasi Action Items
