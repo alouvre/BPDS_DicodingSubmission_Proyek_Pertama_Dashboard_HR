@@ -1,6 +1,5 @@
 # Proyek Pertama: Menyelesaikan Permasalahan Perusahaan Jaya Jaya Maju
 
-
 ## Business Understanding
 
 Jaya Jaya Maju adalah perusahaan multinasional yang telah beroperasi sejak tahun 2000, dengan lebih dari 1.000 karyawan yang tersebar di seluruh Indonesia. Seiring dengan berkembangnya skala bisnis dan meningkatnya kompleksitas operasional, tantangan dalam pengelolaan sumber daya manusia pun menjadi semakin signifikan.
@@ -14,6 +13,7 @@ Sebagai langkah strategis, departemen Human Resources (HR) membutuhkan alat bant
 Bagaimana Jaya Jaya Maju dapat menurunkan tingkat attrition karyawan yang tinggi guna meningkatkan produktivitas, efisiensi operasional, serta memastikan stabilitas bisnis dalam jangka panjang?
 
 Pertanyaan utama ini dapat dijabarkan ke dalam beberapa sub-masalah berikut:
+
 - Apa saja faktor utama yang berkontribusi terhadap tingginya tingkat attrition di Jaya Jaya Maju?
 - Sejauh mana kepuasan kerja, keseimbangan kehidupan dan pekerjaan (work-life balance), peluang pengembangan karier, serta budaya organisasi memengaruhi keputusan karyawan untuk tetap bertahan atau mengundurkan diri?
 - Strategi apa yang dapat diterapkan oleh manajemen untuk meningkatkan retensi dan loyalitas karyawan secara berkelanjutan?
@@ -25,11 +25,11 @@ Untuk menjawab permasalahan di atas, proyek ini memiliki dua fokus utama:
 
 - Pembuatan Business Dashboard
 
-    Dashboard ini dirancang untuk membantu tim HR dalam memantau berbagai faktor yang memengaruhi attrition berdasarkan data historis. Visualisasi interaktif mencakup metrik-metrik penting seperti distribusi usia, status pernikahan, kebiasaan lembur, tingkat kepuasan kerja, serta distribusi berdasarkan departemen dan jabatan.
+  Dashboard ini dirancang untuk membantu tim HR dalam memantau berbagai faktor yang memengaruhi attrition berdasarkan data historis. Visualisasi interaktif mencakup metrik-metrik penting seperti distribusi usia, status pernikahan, kebiasaan lembur, tingkat kepuasan kerja, serta distribusi berdasarkan departemen dan jabatan.
 
 - Pengembangan Model Machine Learning
 
-    Proyek ini juga mencakup pengembangan model machine learning untuk memprediksi kemungkinan seorang karyawan akan mengalami attrition. Model ini diintegrasikan ke dalam antarmuka interaktif berbasis Streamlit, di mana pengguna dapat memasukkan data karyawan secara manual dan langsung memperoleh hasil prediksi. Hal ini memungkinkan tim HR untuk melakukan identifikasi dini terhadap karyawan berisiko tinggi dan merancang strategi retensi secara lebih tepat sasaran.
+  Proyek ini juga mencakup pengembangan model machine learning untuk memprediksi kemungkinan seorang karyawan akan mengalami attrition. Model ini diintegrasikan ke dalam antarmuka interaktif berbasis Streamlit, di mana pengguna dapat memasukkan data karyawan secara manual dan langsung memperoleh hasil prediksi. Hal ini memungkinkan tim HR untuk melakukan identifikasi dini terhadap karyawan berisiko tinggi dan merancang strategi retensi secara lebih tepat sasaran.
 
 ## Persiapan
 
@@ -59,81 +59,93 @@ Lalu, buka browser dan navigasikan http://localhost:3000/setup untuk mengakses d
 - Buat new project
 - Copy URI pada database setting
 - Kirim dataset menggunakan sqlalchemy
-     
-     ```python
-     from sqlalchemy import create_engine
 
-     URL = "DATABASE_URL"
+  ```python
+  from sqlalchemy import create_engine
 
-     engine = create_engine(URL)
-     df.to_sql('dataset', engine)
-     ```
+  URL = "DATABASE_URL"
 
-
+  engine = create_engine(URL)
+  df.to_sql('dataset', engine)
+  ```
 
 ## Business Dashboard
 
-Dashboard ini dibuat menggunakan Metabase yang dirancang untuk menganalisis attrition (tingkat keluar masuk karyawan) dalam perusahaan, menggunakan data karyawan yang telah diklasifikasikan berdasarkan beberapa faktor penting. Dashboard tersebut menyajikan beberapa visualisasi utama seperti berikut:
+Dashboard ini dibangun menggunakan Metabase dan dirancang untuk menganalisis employee attrition (tingkat keluar-masuk karyawan) di perusahaan. Analisis ini dilakukan berdasarkan berbagai faktor penting yang memengaruhi keputusan karyawan untuk bertahan atau mengundurkan diri. Dashboard menyajikan sejumlah visualisasi utama sebagai berikut:
 
-- Attrition Rate
+### Metrik Utama
 
-     Merupakan metrik utama yang menunjukkan persentase karyawan yang keluar dari perusahaan dalam periode tertentu. Ini adalah indikator keseluruhan kesehatan SDM di perusahaan.
+     - **Attrition Rate**
 
-- Attrition by Job Satisfaction
+          Merupakan metrik kunci yang menunjukkan persentase karyawan yang mengundurkan diri dalam periode tertentu. Angka ini menjadi indikator umum terhadap stabilitas dan kesehatan pengelolaan sumber daya manusia di perusahaan.
 
-     Menampilkan hubungan antara tingkat kepuasan kerja karyawan (biasanya dalam skala 1–4 atau 1–5) dengan kemungkinan mereka untuk mengundurkan diri.
+### Visualisasi Berdasarkan Faktor-Faktor Demografis & Pekerjaan
 
-- Attrition by Marital Status
+     - Attrition by Marital Status
 
-     Menggambarkan perbedaan tingkat attrition berdasarkan status pernikahan (lajang, menikah, dll).
+          Menggambarkan perbedaan tingkat attrition berdasarkan status pernikahan, seperti lajang, menikah, atau bercerai.
 
-- Attrition by Age
+     - Attrition by Age
 
-     Menganalisis kelompok usia mana yang paling rentan terhadap attrition.
+          Menganalisis kelompok usia mana yang memiliki tingkat pengunduran diri paling tinggi, serta pola usia yang berisiko tinggi terhadap attrition.
 
-- Attrition by Education Field
+     - Attrition by Education Field
 
-     Melihat sebaran attrition berdasarkan latar belakang pendidikan atau jurusan studi.
+          Menampilkan distribusi attrition berdasarkan latar belakang pendidikan atau bidang studi karyawan.
 
-- Attrition by Department
+     - Attrition by Department
 
-     Visualisasi ini menunjukkan tingkat pengunduran diri karyawan berdasarkan departemen (seperti Sales, HR, R&D). Tujuannya untuk mengidentifikasi departemen mana yang memiliki attrition rate tertinggi.
+          Memvisualisasikan tingkat pengunduran diri berdasarkan departemen (misalnya Sales, R&D, HR), sehingga dapat diidentifikasi area mana yang memerlukan perhatian lebih dalam hal retensi karyawan.
 
-- Attrition by Job Role
+     - Attrition by Job Role
 
-     Menilai tingkat pengunduran diri berdasarkan jabatan atau peran pekerjaan.
+          Menganalisis tingkat attrition berdasarkan peran atau jabatan karyawan dalam organisasi.
 
-- Attrition by Total Working Years
+     - Attrition by Total Working Years
 
-     Memeriksa keterkaitan antara total pengalaman kerja dengan keputusan untuk keluar dari perusahaan.
+          Menggambarkan hubungan antara total pengalaman kerja (di seluruh karier, bukan hanya di perusahaan ini) dan kecenderungan untuk mengundurkan diri.
 
-- Attrition by Years at Company
+     - Attrition by Years at Company
 
-     Grafik ini menunjukkan hubungan antara lama masa kerja karyawan dengan kemungkinan mereka untuk mengundurkan diri. Misalnya, karyawan dengan masa kerja 0–3 tahun mungkin memiliki risiko keluar lebih tinggi.
+          Menunjukkan seberapa lama masa kerja seorang karyawan di perusahaan berkorelasi dengan kemungkinan mereka mengundurkan diri. Umumnya, karyawan dengan masa kerja 0–3 tahun lebih berisiko mengalami attrition.
 
-- Attrition by Business Travel
+     - Attrition by Business Travel
 
-     Menilai bagaimana frekuensi perjalanan dinas memengaruhi tingkat attrition.
+          Menganalisis pengaruh frekuensi perjalanan dinas terhadap keputusan karyawan untuk bertahan atau mengundurkan diri.
 
-- Attrition by OverTime
+     - Attrition by OverTime
 
-     Menganalisis pengaruh jam lembur terhadap kecenderungan karyawan untuk resign.
+          Menilai dampak jam kerja lembur terhadap kecenderungan karyawan mengalami attrition.
 
-- Attrition by WorkLifeBalance
-     
-     Visualisasi ini menggambarkan hubungan antara tingkat keseimbangan kehidupan dan pekerjaan dengan attrition. Semakin buruk work-life balance, biasanya risiko pengunduran diri meningkat.
+     - Attrition by Monthly Income
 
-- Monthly Income Distribution of Employees Who Left
+          Visualisasi ini menunjukkan sebaran penghasilan bulanan dari karyawan yang sudah mengundurkan diri. Hal ini bertujuan untuk mengidentifikasi apakah terdapat pola tertentu, seperti kemungkinan karyawan dengan pendapatan lebih rendah lebih rentan terhadap attrition.
 
-     Visualisasi ini menampilkan distribusi penghasilan bulanan dari karyawan yang sudah resign. Tujuannya untuk melihat apakah ada pola tertentu (misalnya, apakah karyawan dengan gaji lebih rendah cenderung lebih sering resign?).
+### Rata-Rata Indikator Kualitatif (Persepsi Karyawan)
 
+     - Average Environment Satisfaction
 
+          Menampilkan rata-rata kepuasan karyawan terhadap lingkungan kerja secara keseluruhan.
 
+     - Average Job Satisfaction
+
+          Menggambarkan rata-rata tingkat kepuasan terhadap pekerjaan masing-masing.
+
+     - Average Job Involvement
+
+          Menilai rata-rata tingkat keterlibatan karyawan dalam pekerjaannya.
+
+     - Average Relationship Satisfaction
+
+          Menyajikan rata-rata kepuasan terhadap hubungan interpersonal di lingkungan kerja.
+
+     - Average Work-Life Balance
+
+          Menunjukkan rata-rata persepsi karyawan terhadap keseimbangan antara pekerjaan dan kehidupan pribadi.
 
 ## Conclusion
 
 Dari hasil visualisasi, terdapat beberapa poin penting yang dapat disimpulkan:
-
 
 ## Rekomendasi Action Items
 
