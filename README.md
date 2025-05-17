@@ -2,6 +2,8 @@
 
 Proyek ini bertujuan untuk menyelesaikan masalah attrition (pengunduran diri karyawan) di sebuah perusahaan bernama Jaya Jaya Maju dengan pendekatan berbasis data: eksplorasi data, dashboard bisnis dengan Metabase, dan pemodelan machine learning.
 
+<br>
+
 ## 📁 Struktur Direktori
 
 ```
@@ -41,6 +43,8 @@ submission
 - `notebook.ipynb` - Jupyter Notebook berisi proses pemodelan, analisis data, training model, dll.
 - `metabase.db.mv.db` - File database dari Metabase yang berisi data, pertanyaan yang sudah disimpan, dan dashboard visualisasi.
 - `requirements.txt` - File yang mencantumkan semua dependensi Python yang dibutuhkan untuk menjalankan proyek.
+
+<br>
 
 ## 📊 Persiapan Business dashboarding dengan Metabase
 
@@ -86,6 +90,8 @@ Untuk mulai menggunakan dashboard Metabase dan melihat visualisasi data.
   engine = create_engine(URL)
   df.to_sql('dataset', engine)
   ```
+
+<br>
 
 ## 🧠  Machine Learning Modeling
 
