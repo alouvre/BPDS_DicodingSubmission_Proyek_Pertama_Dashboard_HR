@@ -31,6 +31,8 @@ Untuk menjawab permasalahan di atas, proyek ini memiliki dua fokus utama:
 
   Proyek ini juga mencakup pengembangan model machine learning untuk memprediksi kemungkinan seorang karyawan akan mengalami attrition. Model ini diintegrasikan ke dalam antarmuka interaktif berbasis Streamlit, di mana pengguna dapat memasukkan data karyawan secara manual dan langsung memperoleh hasil prediksi. Hal ini memungkinkan tim HR untuk melakukan identifikasi dini terhadap karyawan berisiko tinggi dan merancang strategi retensi secara lebih tepat sasaran.
 
+<br>
+
 ## Business Dashboard
 
 Dashboard ini dibangun menggunakan Metabase dan dirancang untuk menganalisis employee attrition (tingkat keluar-masuk karyawan) di perusahaan. Analisis ini dilakukan berdasarkan berbagai faktor penting yang memengaruhi keputusan karyawan untuk bertahan atau mengundurkan diri. Dashboard menyajikan sejumlah visualisasi utama sebagai berikut:
@@ -105,9 +107,13 @@ Dashboard ini dibangun menggunakan Metabase dan dirancang untuk menganalisis emp
 
      Menunjukkan rata-rata persepsi karyawan terhadap keseimbangan antara pekerjaan dan kehidupan pribadi.
 
+<br>
+
 ## Conclusion
 
 Dari hasil visualisasi, terdapat beberapa poin penting yang dapat disimpulkan:
+
+<br>
 
 ## Rekomendasi Action Items
 
