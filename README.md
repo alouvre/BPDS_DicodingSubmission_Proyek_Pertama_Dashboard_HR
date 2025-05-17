@@ -1,8 +1,8 @@
-# Proyek Pertama: Menyelesaikan Permasalahan Perusahaan Jaya Jaya Maju
+# 🏢 Proyek Pertama: Menyelesaikan Permasalahan Perusahaan Jaya Jaya Maju
 
-Proyek ini bertujuan untuk menyelesaikan masalah attrition (pengunduran diri karyawan) di sebuah perusahaan bernama Jaya Jaya Maju.
+Proyek ini bertujuan untuk menyelesaikan masalah attrition (pengunduran diri karyawan) di sebuah perusahaan bernama Jaya Jaya Maju dengan pendekatan berbasis data: eksplorasi data, dashboard bisnis dengan Metabase, dan pemodelan machine learning.
 
-## Struktur Direktori
+## 📁 Struktur Direktori
 
 ```
 submission
@@ -27,8 +27,10 @@ submission
 └───requirements.txt
 ```
 
-Penjelasan:
-- `README.md` - Ini biasanya file yang berisi gambaran umum tentang proyek, misalnya tujuan, cara pakai, atau ringkasan proyek.
+📝 Penjelasan Berkas Utama:
+- `models/` - Folder berisi file model (.pkl) dan objek pendukung seperti scaler dan label encoder.
+- `data/` - Berisi data mentah hingga data siap pakai untuk modeling dan dashboarding.
+- `README.md` - Ini file yang berisi gambaran umum tentang proyek, misalnya tujuan, cara pakai, atau ringkasan proyek.
 - `documentation.md` - Ini dokumen yang menjelaskan detail tentang proyek, bisa lebih lengkap dari README, biasanya cara kerja, spesifikasi teknis, dan lain-lain.
 - `model_rf_sel.pkl` - Ini file model machine learning yang sudah dilatih menggunakan algoritma Random Forest.
 - `scaler.pkl` - File yang berisi scaler, biasanya digunakan untuk preprocessing data agar fitur-fiturnya berada di skala yang sama sebelum dimasukkan ke model.
@@ -38,12 +40,16 @@ Penjelasan:
 - `data_employee.csv` - Dataset asli sebelum dibersihkan atau diproses.
 - `notebook.ipynb` - Jupyter Notebook berisi proses pemodelan, analisis data, training model, dll.
 - `metabase.db.mv.db` - File database dari Metabase yang berisi data, pertanyaan yang sudah disimpan, dan dashboard visualisasi.
+- `requirements.txt` - File yang mencantumkan semua dependensi Python yang dibutuhkan untuk menjalankan proyek.
 
-## Persiapan Business dashboarding dengan Metabase
+## 📊 Persiapan Business dashboarding dengan Metabase
 
-Sumber data yang digunakan merupakan dataset [Jaya Jaya Maju](https://github.com/dicodingacademy/dicoding_dataset/tree/main/employee).
+Dataset yang digunakan berasal dari perusahaan fiktif Jaya Jaya Maju, yang tersedia di repositori berikut:
+- 🔗 [Dataset Jaya Jaya Maju](https://github.com/dicodingacademy/dicoding_dataset/tree/main/employee).
 
-### Install requirements
+### 📦 Install requirements
+
+Pastikan semua library yang dibutuhkan telah terinstall:
 
 ```python
 pip install -r requirements.txt
@@ -51,7 +57,7 @@ pip install -r requirements.txt
 
 ### Setup metabase
 
-Untuk melihat dashboard secara lokal:
+Untuk menjalankan Metabase secara lokal menggunakan Docker:
 
 ```python
 docker run -d -p 3000:3000 --name metabase \
@@ -59,7 +65,9 @@ docker run -d -p 3000:3000 --name metabase \
   metabase/metabase
 ```
 
-Lalu, buka browser dan navigasikan http://localhost:3000/setup untuk mengakses dashboard Metabase..
+Setelah container berjalan, buka browser dan akses:
+🌐 http://localhost:3000/setup
+untuk mulai menggunakan dashboard Metabase dan melihat visualisasi data.
 
 ### Setup supabase
 
@@ -77,4 +85,31 @@ Lalu, buka browser dan navigasikan http://localhost:3000/setup untuk mengakses d
   df.to_sql('dataset', engine)
   ```
 
-## Machine Learning Modeling
+## 🧠  Machine Learning Modeling
+
+Sebuah model klasifikasi dikembangkan untuk memprediksi apakah seorang karyawan kemungkinan akan keluar dari perusahaan. Proses pemodelan difokuskan pada mengidentifikasi pola-pola dalam data yang mengindikasikan potensi attrition. Dengan model ini, departemen HR dapat mengambil langkah preventif secara proaktif untuk mempertahankan karyawan.
+
+### ✅ `Pendekatan yang Digunakan:`
+- Random Forest Classifier
+     Algoritma pohon keputusan gabungan yang andal dan kuat untuk klasifikasi.
+
+- Jupyter Notebook menggunakan scikit-learn dan pandas
+
+     Digunakan sebagai lingkungan pengembangan berbasis Python untuk eksplorasi data dan pelatihan model.
+
+- Feature Importance
+     
+     Digunakan untuk mengidentifikasi fitur paling berpengaruh dalam keputusan model (misalnya: lembur, kepuasan kerja, usia, dll).
+
+- Evaluasi Model: Accuracy, Precision, Recall, F1-score
+
+     Metrik-metrik ini memberikan penilaian menyeluruh terhadap performa model, khususnya dalam menghadapi ketidakseimbangan data.
+
+### 📊 `Kinerja Model:`
+- Akurasi Keseluruhan: 85%
+
+     📌 Artinya: Model memiliki akurasi sekitar  85 dari 100 prediksi model benar secara keseluruhan. Ini menunjukkan modelnya cukup baik dalam memprediksi attrition karyawan.
+
+     Meskipun akurasi terlihat tinggi, hal ini sebagian besar disebabkan oleh ketidakseimbangan data—jumlah karyawan yang tetap bekerja jauh lebih banyak dibandingkan yang keluar. Hal ini menyebabkan nilai recall untuk kelas attrition (karyawan yang keluar) relatif rendah (hanya 23%), yang artinya model masih sering gagal mendeteksi karyawan yang benar-benar akan keluar.
+
+     Oleh karena itu, peningkatan recall pada kelas attrition perlu menjadi fokus utama agar model benar-benar efektif dalam membantu HR mengambil tindakan pencegahan yang tepat.
