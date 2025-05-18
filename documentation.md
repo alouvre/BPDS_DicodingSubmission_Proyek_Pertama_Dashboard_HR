@@ -41,7 +41,7 @@ Dashboard ini dibangun menggunakan Metabase dan dirancang untuk menganalisis emp
 
 - **Attrition Rate**
 
-     Merupakan metrik kunci yang menunjukkan persentase karyawan yang mengundurkan diri dalam periode tertentu. Angka ini menjadi indikator umum terhadap stabilitas dan kesehatan pengelolaan sumber daya manusia di perusahaan.
+  Merupakan metrik kunci yang menunjukkan persentase karyawan yang mengundurkan diri dalam periode tertentu. Angka ini menjadi indikator umum terhadap stabilitas dan kesehatan pengelolaan sumber daya manusia di perusahaan.
 
 ### Visualisasi Berdasarkan Faktor-Faktor Demografis & Pekerjaan
 
@@ -58,28 +58,15 @@ Dashboard ini dibangun menggunakan Metabase dan dirancang untuk menganalisis emp
 | **Attrition by OverTime**            | Menilai apakah jam kerja lembur berkontribusi terhadap tingginya tingkat attrition.                                                     |
 | **Attrition by Monthly Income**      | Menunjukkan distribusi pendapatan bulanan karyawan yang mengundurkan diri, untuk mengidentifikasi apakah pendapatan rendah berpengaruh. |
 
-
 ### Rata-Rata Indikator Kualitatif (Persepsi Karyawan)
 
-- Average Environment Satisfaction
-
-     Menampilkan rata-rata kepuasan karyawan terhadap lingkungan kerja secara keseluruhan.
-
-- Average Job Satisfaction
-
-     Menggambarkan rata-rata tingkat kepuasan terhadap pekerjaan masing-masing.
-
-- Average Job Involvement
-
-     Menilai rata-rata tingkat keterlibatan karyawan dalam pekerjaannya.
-
-- Average Relationship Satisfaction
-
-     Menyajikan rata-rata kepuasan terhadap hubungan interpersonal di lingkungan kerja.
-
-- Average Work-Life Balance
-
-     Menunjukkan rata-rata persepsi karyawan terhadap keseimbangan antara pekerjaan dan kehidupan pribadi.
+| **Visualisasi**                       | **Tujuan Analisis**                                                                               |
+| ------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| **Average Environment Satisfaction**  | Menampilkan rata-rata kepuasan karyawan terhadap lingkungan kerja secara keseluruhan.             |
+| **Average Job Satisfaction**          | Menggambarkan rata-rata tingkat kepuasan karyawan terhadap pekerjaan mereka.                      |
+| **Average Job Involvement**           | Menilai rata-rata tingkat keterlibatan karyawan dalam tugas dan tanggung jawab pekerjaan.         |
+| **Average Relationship Satisfaction** | Menyajikan rata-rata kepuasan karyawan terhadap hubungan interpersonal di tempat kerja.           |
+| **Average Work-Life Balance**         | Menunjukkan rata-rata persepsi karyawan mengenai keseimbangan antara kehidupan kerja dan pribadi. |
 
 <br>
 
