@@ -45,45 +45,19 @@ Dashboard ini dibangun menggunakan Metabase dan dirancang untuk menganalisis emp
 
 ### Visualisasi Berdasarkan Faktor-Faktor Demografis & Pekerjaan
 
-- Attrition by Marital Status
+| **Visualisasi**                      | **Tujuan Analisis**                                                                                                                     |
+| ------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------- |
+| **Attrition by Marital Status**      | Menggambarkan perbedaan tingkat attrition berdasarkan status pernikahan (lajang, menikah, bercerai).                                    |
+| **Attrition by Age**                 | Menganalisis kelompok usia dengan tingkat attrition tertinggi dan usia-usia yang berisiko tinggi mengundurkan diri.                     |
+| **Attrition by Education Field**     | Menampilkan distribusi attrition berdasarkan latar belakang pendidikan atau bidang studi.                                               |
+| **Attrition by Department**          | Memvisualisasikan attrition berdasarkan departemen (Sales, R\&D, HR) untuk mengidentifikasi area dengan tingkat keluar tinggi.          |
+| **Attrition by Job Role**            | Menganalisis tingkat attrition berdasarkan jabatan atau peran karyawan.                                                                 |
+| **Attrition by Total Working Years** | Menggambarkan hubungan antara total pengalaman kerja dan kecenderungan mengundurkan diri.                                               |
+| **Attrition by Years at Company**    | Menunjukkan korelasi masa kerja di perusahaan terhadap kemungkinan attrition, terutama pada karyawan baru (0–3 tahun).                  |
+| **Attrition by Business Travel**     | Menganalisis pengaruh frekuensi perjalanan dinas terhadap keputusan keluar dari perusahaan.                                             |
+| **Attrition by OverTime**            | Menilai apakah jam kerja lembur berkontribusi terhadap tingginya tingkat attrition.                                                     |
+| **Attrition by Monthly Income**      | Menunjukkan distribusi pendapatan bulanan karyawan yang mengundurkan diri, untuk mengidentifikasi apakah pendapatan rendah berpengaruh. |
 
-     Menggambarkan perbedaan tingkat attrition berdasarkan status pernikahan, seperti lajang, menikah, atau bercerai.
-
-- Attrition by Age
-
-     Menganalisis kelompok usia mana yang memiliki tingkat pengunduran diri paling tinggi, serta pola usia yang berisiko tinggi terhadap attrition.
-
-- Attrition by Education Field
-
-     Menampilkan distribusi attrition berdasarkan latar belakang pendidikan atau bidang studi karyawan.
-
-- Attrition by Department
-
-     Memvisualisasikan tingkat pengunduran diri berdasarkan departemen (misalnya Sales, R&D, HR), sehingga dapat diidentifikasi area mana yang memerlukan perhatian lebih dalam hal retensi karyawan.
-
-- Attrition by Job Role
-
-     Menganalisis tingkat attrition berdasarkan peran atau jabatan karyawan dalam organisasi.
-
-- Attrition by Total Working Years
-
-     Menggambarkan hubungan antara total pengalaman kerja (di seluruh karier, bukan hanya di perusahaan ini) dan kecenderungan untuk mengundurkan diri.
-
-- Attrition by Years at Company
-
-     Menunjukkan seberapa lama masa kerja seorang karyawan di perusahaan berkorelasi dengan kemungkinan mereka mengundurkan diri. Umumnya, karyawan dengan masa kerja 0–3 tahun lebih berisiko mengalami attrition.
-
-- Attrition by Business Travel
-
-     Menganalisis pengaruh frekuensi perjalanan dinas terhadap keputusan karyawan untuk bertahan atau mengundurkan diri.
-
-- Attrition by OverTime
-
-     Menilai dampak jam kerja lembur terhadap kecenderungan karyawan mengalami attrition.
-
-- Attrition by Monthly Income
-
-     Visualisasi ini menunjukkan sebaran penghasilan bulanan dari karyawan yang sudah mengundurkan diri. Hal ini bertujuan untuk mengidentifikasi apakah terdapat pola tertentu, seperti kemungkinan karyawan dengan pendapatan lebih rendah lebih rentan terhadap attrition.
 
 ### Rata-Rata Indikator Kualitatif (Persepsi Karyawan)
 

@@ -51,7 +51,7 @@ submission
 Dataset yang digunakan berasal dari perusahaan fiktif Jaya Jaya Maju, yang tersedia di repositori berikut:
 - 🔗 [Dataset Jaya Jaya Maju](https://github.com/dicodingacademy/dicoding_dataset/tree/main/employee).
 
-### 📦 Install requirements
+### Install requirements
 
 Pastikan semua library yang dibutuhkan telah terinstall:
 
@@ -59,7 +59,7 @@ Pastikan semua library yang dibutuhkan telah terinstall:
 pip install -r requirements.txt
 ```
 
-### 🖥️ Setup metabase
+### Setup metabase
 
 Untuk menjalankan Metabase secara lokal menggunakan Docker:
 
@@ -75,7 +75,7 @@ Setelah container berjalan, buka browser dan akses:
 
 Untuk mulai menggunakan dashboard Metabase dan melihat visualisasi data.
 
-### ☁️ Setup supabase
+### Setup supabase
 
 - Buat akun dan login https://supabase.com/dashboard/sign-in.
 - Buat new project
