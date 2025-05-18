@@ -39,9 +39,9 @@ Dashboard ini dibangun menggunakan Metabase dan dirancang untuk menganalisis emp
 
 ### Metrik Utama
 
-- **Attrition Rate**
-
-  Merupakan metrik kunci yang menunjukkan persentase karyawan yang mengundurkan diri dalam periode tertentu. Angka ini menjadi indikator umum terhadap stabilitas dan kesehatan pengelolaan sumber daya manusia di perusahaan.
+| **Visualisasi**    | **Tujuan Analisis**                                                                                                                                                                    |
+| ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Attrition Rate** | Menunjukkan persentase karyawan yang mengundurkan diri dalam periode tertentu. Metrik ini menjadi indikator utama dalam menilai stabilitas tenaga kerja dan efektivitas manajemen SDM. |
 
 ### Visualisasi Berdasarkan Faktor-Faktor Demografis & Pekerjaan
 
