@@ -131,7 +131,7 @@ Sebuah model klasifikasi dikembangkan untuk memprediksi apakah seorang karyawan 
 
 ### 📊 `Kinerja Model:`
 
-- Sebelum Feature Selection:
+- 📉 Sebelum Feature Selection:
 
   - Accuracy = 0.86, Precision = 0.87, Recall = 0.86, F1 Score = 0.86
   - Confusion Matrix:
@@ -145,7 +145,7 @@ Sebuah model klasifikasi dikembangkan untuk memprediksi apakah seorang karyawan 
 
     Model menunjukkan performa yang seimbang dan kuat, dengan kemampuan tinggi dalam mengklasifikasikan baik karyawan yang tetap maupun yang resign. Recall sebesar 86% untuk kelas minoritas (resign) menunjukkan bahwa model cukup baik dalam mendeteksi potensi pengunduran diri.
 
-- Setelah Feature Selection:
+- 📉 Setelah Feature Selection:
 
   - Accuracy = 0.84, Precision = 0.81, Recall = 0.84, F1 Score = 0.80
   - Confusion Matrix:
@@ -162,10 +162,10 @@ Sebuah model klasifikasi dikembangkan untuk memprediksi apakah seorang karyawan 
     - Jumlah false negatives meningkat (26 karyawan yang resign diprediksi tidak resign).
     - Recall menurun drastis untuk kelas minoritas, sehingga banyak potensi resign tidak terdeteksi dengan baik.
 
-📉 Perbandingan ROC-AUC:
+- 📉 Perbandingan ROC-AUC:
 
-- Sebelum Feature Selection: ROC-AUC = 0.82
-- Setelah Feature Selection: ROC-AUC = 0.70
+  - Sebelum Feature Selection: ROC-AUC = 0.82
+  - Setelah Feature Selection: ROC-AUC = 0.70
 
   📌 Kesimpulan:
 
