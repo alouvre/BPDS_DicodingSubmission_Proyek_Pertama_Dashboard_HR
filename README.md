@@ -80,6 +80,12 @@ Setelah container berjalan, buka browser dan akses:
 
 Untuk mulai menggunakan dashboard Metabase dan melihat visualisasi data.
 
+Anda bisa login ke dashboard Metabase menggunakan:
+```
+root@mail.com
+root123
+```
+
 ### Setup supabase
 
 - Buat akun dan login https://supabase.com/dashboard/sign-in.
