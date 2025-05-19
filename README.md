@@ -113,7 +113,9 @@ Sebuah model klasifikasi dikembangkan untuk memprediksi apakah seorang karyawan 
 
   Digunakan untuk mengidentifikasi fitur paling berpengaruh dalam keputusan model. Fitur penting yang terdeteksi mencakup:
 
-  - Age, MonthlyIncome, DailyRate, OverTime, MonthlyRate, TotalWorkingYears, YearsAtCompany, EnvironmentSatisfaction, DistanceFromHome, HourlyRate.
+  ```
+  Age, MonthlyIncome, DailyRate, OverTime, MonthlyRate, TotalWorkingYears, YearsAtCompany, EnvironmentSatisfaction, DistanceFromHome, HourlyRate.
+  ```
 
 - Jupyter Notebook menggunakan scikit-learn dan pandas
 
@@ -139,8 +141,9 @@ Sebuah model klasifikasi dikembangkan untuk memprediksi apakah seorang karyawan 
     [ 10, 21]]
     ```
 
-📌 Interpretasi:
-Model menunjukkan performa yang seimbang dan kuat, dengan kemampuan tinggi dalam mengklasifikasikan baik karyawan yang tetap maupun yang resign. Recall sebesar 86% untuk kelas minoritas (resign) menunjukkan bahwa model cukup baik dalam mendeteksi potensi pengunduran diri.
+    📌 Interpretasi:
+
+    Model menunjukkan performa yang seimbang dan kuat, dengan kemampuan tinggi dalam mengklasifikasikan baik karyawan yang tetap maupun yang resign. Recall sebesar 86% untuk kelas minoritas (resign) menunjukkan bahwa model cukup baik dalam mendeteksi potensi pengunduran diri.
 
 - Setelah Feature Selection:
 
@@ -152,17 +155,18 @@ Model menunjukkan performa yang seimbang dan kuat, dengan kemampuan tinggi dalam
     [ 26, 5]]
     ```
 
-📌 Interpretasi:
-Setelah dilakukan feature selection, terjadi penurunan performa model terhadap kelas minoritas (resign). Meskipun klasifikasi terhadap kelas mayoritas (tetap bekerja) meningkat, kemampuan mendeteksi karyawan yang resign menurun drastis. Hal ini terlihat dari:
+    📌 Interpretasi:
 
-- Jumlah false negatives meningkat (26 karyawan yang resign diprediksi tidak resign).
-- Recall menurun drastis untuk kelas minoritas, sehingga banyak potensi resign tidak terdeteksi dengan baik.
+    Setelah dilakukan feature selection, terjadi penurunan performa model terhadap kelas minoritas (resign). Meskipun klasifikasi terhadap kelas mayoritas (tetap bekerja) meningkat, kemampuan mendeteksi karyawan yang resign menurun drastis. Hal ini terlihat dari:
+
+    - Jumlah false negatives meningkat (26 karyawan yang resign diprediksi tidak resign).
+    - Recall menurun drastis untuk kelas minoritas, sehingga banyak potensi resign tidak terdeteksi dengan baik.
 
 📉 Perbandingan ROC-AUC:
 
 - Sebelum Feature Selection: ROC-AUC = 0.82
 - Setelah Feature Selection: ROC-AUC = 0.70
 
-📌 Kesimpulan:
+  📌 Kesimpulan:
 
-ROC-AUC mengalami penurunan signifikan setelah feature selection, yang menandakan bahwa kemampuan model dalam membedakan antara karyawan yang akan resign dan yang tidak menjadi lebih lemah. Oleh karena itu, pemilihan fitur perlu ditinjau ulang agar tidak mengorbankan kinerja pada kelas yang justru menjadi fokus analisis (attrition prediction).
+  ROC-AUC mengalami penurunan signifikan setelah feature selection, yang menandakan bahwa kemampuan model dalam membedakan antara karyawan yang akan resign dan yang tidak menjadi lebih lemah. Oleh karena itu, pemilihan fitur perlu ditinjau ulang agar tidak mengorbankan kinerja pada kelas yang justru menjadi fokus analisis (attrition prediction).
