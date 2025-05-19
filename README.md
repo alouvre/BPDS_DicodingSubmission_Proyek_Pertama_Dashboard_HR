@@ -141,9 +141,9 @@ Sebuah model klasifikasi dikembangkan untuk memprediksi apakah seorang karyawan 
     [ 10, 21]]
     ```
 
-    📌 Interpretasi:
+📌 Interpretasi:
 
-    Model menunjukkan performa yang seimbang dan kuat, dengan kemampuan tinggi dalam mengklasifikasikan baik karyawan yang tetap maupun yang resign. Recall sebesar 86% untuk kelas minoritas (resign) menunjukkan bahwa model cukup baik dalam mendeteksi potensi pengunduran diri.
+Model menunjukkan performa yang seimbang dan kuat, dengan kemampuan tinggi dalam mengklasifikasikan baik karyawan yang tetap maupun yang resign. Recall sebesar 86% untuk kelas minoritas (resign) menunjukkan bahwa model cukup baik dalam mendeteksi potensi pengunduran diri.
 
 - 📉 Setelah Feature Selection:
 
@@ -155,12 +155,12 @@ Sebuah model klasifikasi dikembangkan untuk memprediksi apakah seorang karyawan 
     [ 26, 5]]
     ```
 
-    📌 Interpretasi:
+📌 Interpretasi:
 
-    Setelah dilakukan feature selection, terjadi penurunan performa model terhadap kelas minoritas (resign). Meskipun klasifikasi terhadap kelas mayoritas (tetap bekerja) meningkat, kemampuan mendeteksi karyawan yang resign menurun drastis. Hal ini terlihat dari:
+Setelah dilakukan feature selection, terjadi penurunan performa model terhadap kelas minoritas (resign). Meskipun klasifikasi terhadap kelas mayoritas (tetap bekerja) meningkat, kemampuan mendeteksi karyawan yang resign menurun drastis. Hal ini terlihat dari:
 
-    - Jumlah false negatives meningkat (26 karyawan yang resign diprediksi tidak resign).
-    - Recall menurun drastis untuk kelas minoritas, sehingga banyak potensi resign tidak terdeteksi dengan baik.
+- Jumlah false negatives meningkat (26 karyawan yang resign diprediksi tidak resign).
+- Recall menurun drastis untuk kelas minoritas, sehingga banyak potensi resign tidak terdeteksi dengan baik.
 
 - 📉 Perbandingan ROC-AUC:
 
