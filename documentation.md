@@ -33,6 +33,22 @@ Untuk menjawab permasalahan di atas, proyek ini memiliki dua fokus utama:
 
 <br>
 
+## Persiapan
+
+Dataset yang digunakan berasal dari perusahaan fiktif Jaya Jaya Maju, yang tersedia di repositori berikut:
+
+- 🔗 [Dataset Jaya Jaya Maju](https://github.com/dicodingacademy/dicoding_dataset/tree/main/employee).
+
+### Install requirements
+
+Pastikan semua library yang dibutuhkan telah terinstall:
+
+```python
+pip install -r requirements.txt
+```
+
+<br>
+
 ## Business Dashboard
 
 ![Dashboard](images/alouvre-dashboard01.png)
