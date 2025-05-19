@@ -35,7 +35,7 @@ Untuk menjawab permasalahan di atas, proyek ini memiliki dua fokus utama:
 
 ## Business Dashboard
 
-![Dashboard]("D:\Study_Base\00 A LASKAR AI\Dicoding - K. Belajar Penerapan Data Science\ProyekPertama\images\alouvre-dashboard01.png")
+![Dashboard](images\alouvre-dashboard01.png)
 
 Dashboard ini dibangun menggunakan Metabase dan dirancang untuk menganalisis employee attrition (tingkat keluar-masuk karyawan) di perusahaan. Analisis ini dilakukan berdasarkan berbagai faktor penting yang memengaruhi keputusan karyawan untuk bertahan atau mengundurkan diri. Dashboard menyajikan sejumlah visualisasi utama sebagai berikut:
 
