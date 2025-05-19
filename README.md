@@ -171,3 +171,35 @@ Sebuah model klasifikasi dikembangkan untuk memprediksi apakah seorang karyawan 
     📌 Kesimpulan:
 
     ROC-AUC mengalami penurunan signifikan setelah feature selection, yang menandakan bahwa kemampuan model dalam membedakan antara karyawan yang akan resign dan yang tidak menjadi lebih lemah. Oleh karena itu, pemilihan fitur perlu ditinjau ulang agar tidak mengorbankan kinerja pada kelas yang justru menjadi fokus analisis (attrition prediction).
+
+### Langkah-Langkah Menjalankan Model
+
+Setelah proses pelatihan (training) model selesai, model tersebut disimpan/di-export dalam bentuk file menggunakan library joblib (format penyimpanan untuk model machine learning). Untuk menggunakan model tersebut pada data karyawan baru, disediakan sebuah file Python bernama prediction.py yang bisa dijalankan untuk menghasilkan prediksi.
+
+1. Install Required Libraries
+
+     Sebelum menjalankan prediction.py, pastikan semua library yang dibutuhkan sudah terinstal. Jalankan perintah berikut di terminal atau command prompt:
+
+     ```python
+     pip install pandas scikit-learn joblib
+     ```
+
+     Penjelasan:
+     - `pandas`: Untuk membaca dan mengelola data karyawan dalam bentuk tabel (dataframe).
+     - `scikit-learn`: Library utama yang digunakan untuk membangun dan menjalankan model machine learning.
+     - `joblib`: Untuk memuat (load) model yang telah disimpan sebelumnya.
+
+2. Run the Prediction Script
+
+     Setelah semua library siap, Anda bisa menjalankan skrip prediksi dengan mengetik:
+
+```python
+python prediction.py
+```
+
+Penjelasan:
+- prediction.py adalah skrip Python yang berisi logika untuk:
+     - Membaca data karyawan baru.
+     - Memuat model prediksi yang sudah disimpan.
+     - Melakukan prediksi apakah karyawan tersebut berisiko keluar (attrition) atau tidak.
+     - Menampilkan atau menyimpan hasil prediksi.
