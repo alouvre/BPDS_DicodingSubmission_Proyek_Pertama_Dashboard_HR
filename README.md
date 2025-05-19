@@ -178,27 +178,29 @@ Setelah proses pelatihan (training) model selesai, model tersebut disimpan/di-ex
 
 1. Install Required Libraries
 
-     Sebelum menjalankan prediction.py, pastikan semua library yang dibutuhkan sudah terinstal. Jalankan perintah berikut di terminal atau command prompt:
+   Sebelum menjalankan prediction.py, pastikan semua library yang dibutuhkan sudah terinstal. Jalankan perintah berikut di terminal atau command prompt:
 
-     ```python
-     pip install pandas scikit-learn joblib
-     ```
+   ```python
+   pip install pandas scikit-learn joblib
+   ```
 
-     Penjelasan:
-     - `pandas`: Untuk membaca dan mengelola data karyawan dalam bentuk tabel (dataframe).
-     - `scikit-learn`: Library utama yang digunakan untuk membangun dan menjalankan model machine learning.
-     - `joblib`: Untuk memuat (load) model yang telah disimpan sebelumnya.
+   Penjelasan:
+
+   - `pandas`: Untuk membaca dan mengelola data karyawan dalam bentuk tabel (dataframe).
+   - `scikit-learn`: Library utama yang digunakan untuk membangun dan menjalankan model machine learning.
+   - `joblib`: Untuk memuat (load) model yang telah disimpan sebelumnya.
 
 2. Run the Prediction Script
 
-     Setelah semua library siap, Anda bisa menjalankan skrip prediksi dengan mengetik:
+   Setelah semua library siap, Anda bisa menjalankan skrip prediksi dengan mengetik:
 
-```python
-python prediction.py
-```
+   ```python
+   python prediction.py
+   ```
 
-Penjelasan:
-- prediction.py adalah skrip Python yang berisi logika untuk:
+   Penjelasan:
+
+   - prediction.py adalah skrip Python yang berisi logika untuk:
      - Membaca data karyawan baru.
      - Memuat model prediksi yang sudah disimpan.
      - Melakukan prediksi apakah karyawan tersebut berisiko keluar (attrition) atau tidak.
