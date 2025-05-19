@@ -72,10 +72,55 @@ Dashboard ini dibangun menggunakan Metabase dan dirancang untuk menganalisis emp
 
 ## Conclusion
 
-Dari hasil visualisasi, terdapat beberapa poin penting yang dapat disimpulkan:
+Dari hasil visualisasi dan analisis data historis karyawan Jaya Jaya Maju, dapat disimpulkan beberapa poin penting berikut:
+
+- Tingkat attrition tertinggi ditemukan pada kelompok karyawan dengan work-life balance yang rendah, jam lembur tinggi, serta kepuasan kerja dan keterlibatan yang rendah.
+- Distribusi data menunjukkan bahwa karyawan di departemen tertentu, seperti Sales dan Research & Development, lebih rentan terhadap attrition, terutama pada posisi entry-level hingga mid-level.
+- Karyawan dengan masa kerja pendek (0–3 tahun) dan usia produktif (30–40 tahun) menunjukkan kecenderungan resign lebih tinggi dibandingkan kelompok lainnya.
+- Visualisasi juga memperlihatkan bahwa faktor budaya organisasi dan kesempatan pengembangan karir memiliki hubungan signifikan terhadap keputusan keluar dari perusahaan.
+- Model prediktif berbasis machine learning yang dikembangkan mampu mengidentifikasi karyawan berisiko dengan akurasi tinggi, sehingga dapat digunakan untuk intervensi dini dan pencegahan.
+
+Temuan ini menjadi landasan penting bagi manajemen dalam menyusun strategi retensi yang lebih efektif dan berbasis data.
 
 <br>
 
 ## Rekomendasi Action Items
 
-Berikan beberapa rekomendasi action items yang harus dilakukan perusahaan guna menyelesaikan permasalahan atau mencapai target mereka.
+Berdasarkan hasil analisis dan prediksi, berikut adalah beberapa rekomendasi strategis yang dapat segera dilakukan oleh perusahaan:
+
+1. Tingkatkan Work-Life Balance
+
+- Terapkan kebijakan kerja fleksibel seperti hybrid working.
+- Sediakan program kesejahteraan dan kesehatan mental untuk mendukung keseimbangan kehidupan kerja.
+
+2. Kurangi Beban Lembur Berlebihan
+
+- Batasi maksimal jam lembur mingguan.
+- Tinjau ulang distribusi kerja dan alokasikan sumber daya manusia secara lebih seimbang.
+
+3. Tingkatkan Kepuasan dan Keterlibatan Karyawan
+
+- Lakukan survei kepuasan secara berkala dan tindak lanjuti hasilnya dengan aksi nyata.
+- Perkuat budaya apresiasi dan kolaborasi melalui kegiatan internal yang rutin.
+
+4. Fokus pada Pengembangan Karir
+
+- Bangun jalur karir yang jelas dan komunikatif.
+- Sediakan pelatihan berkala dan program mentoring berdasarkan kebutuhan dan minat karyawan.
+
+5. Gunakan Model Prediktif untuk Intervensi Dini
+
+- Terapkan sistem early warning untuk mengidentifikasi karyawan berisiko tinggi.
+- Lakukan pendekatan personal seperti coaching, rotasi kerja, atau diskusi satu-satu.
+
+6. Integrasikan Dashboard Monitoring ke HR Operation
+
+- Gunakan dashboard sebagai alat utama dalam evaluasi dan pengambilan keputusan HR.
+- Latih staf HR untuk menganalisis data dan menyusun strategi berbasis visualisasi yang tersedia.
+
+7. Bangun Budaya Organisasi yang Inklusif dan Adaptif
+
+- Perkuat nilai-nilai keterbukaan, transparansi, dan keberagaman.
+- Adakan forum komunikasi seperti town hall atau sesi feedback untuk mendengarkan suara karyawan.
+
+Dengan menerapkan langkah-langkah ini, Jaya Jaya Maju dapat mengurangi attrition secara signifikan, meningkatkan loyalitas karyawan, serta menciptakan lingkungan kerja yang produktif dan berkelanjutan.
