@@ -90,37 +90,37 @@ Berdasarkan hasil analisis dan prediksi, berikut adalah beberapa rekomendasi str
 
 1. Tingkatkan Work-Life Balance
 
-- Terapkan kebijakan kerja fleksibel seperti hybrid working.
-- Sediakan program kesejahteraan dan kesehatan mental untuk mendukung keseimbangan kehidupan kerja.
+  - Terapkan kebijakan kerja fleksibel seperti hybrid working.
+  - Sediakan program kesejahteraan dan kesehatan mental untuk mendukung keseimbangan kehidupan kerja.
 
 2. Kurangi Beban Lembur Berlebihan
 
-- Batasi maksimal jam lembur mingguan.
-- Tinjau ulang distribusi kerja dan alokasikan sumber daya manusia secara lebih seimbang.
+  - Batasi maksimal jam lembur mingguan.
+  - Tinjau ulang distribusi kerja dan alokasikan sumber daya manusia secara lebih seimbang.
 
 3. Tingkatkan Kepuasan dan Keterlibatan Karyawan
 
-- Lakukan survei kepuasan secara berkala dan tindak lanjuti hasilnya dengan aksi nyata.
-- Perkuat budaya apresiasi dan kolaborasi melalui kegiatan internal yang rutin.
+  - Lakukan survei kepuasan secara berkala dan tindak lanjuti hasilnya dengan aksi nyata.
+  - Perkuat budaya apresiasi dan kolaborasi melalui kegiatan internal yang rutin.
 
 4. Fokus pada Pengembangan Karir
 
-- Bangun jalur karir yang jelas dan komunikatif.
-- Sediakan pelatihan berkala dan program mentoring berdasarkan kebutuhan dan minat karyawan.
+  - Bangun jalur karir yang jelas dan komunikatif.
+  - Sediakan pelatihan berkala dan program mentoring berdasarkan kebutuhan dan minat karyawan.
 
 5. Gunakan Model Prediktif untuk Intervensi Dini
 
-- Terapkan sistem early warning untuk mengidentifikasi karyawan berisiko tinggi.
-- Lakukan pendekatan personal seperti coaching, rotasi kerja, atau diskusi satu-satu.
+  - Terapkan sistem early warning untuk mengidentifikasi karyawan berisiko tinggi.
+  - Lakukan pendekatan personal seperti coaching, rotasi kerja, atau diskusi satu-satu.
 
 6. Integrasikan Dashboard Monitoring ke HR Operation
 
-- Gunakan dashboard sebagai alat utama dalam evaluasi dan pengambilan keputusan HR.
-- Latih staf HR untuk menganalisis data dan menyusun strategi berbasis visualisasi yang tersedia.
+  - Gunakan dashboard sebagai alat utama dalam evaluasi dan pengambilan keputusan HR.
+  - Latih staf HR untuk menganalisis data dan menyusun strategi berbasis visualisasi yang tersedia.
 
 7. Bangun Budaya Organisasi yang Inklusif dan Adaptif
 
-- Perkuat nilai-nilai keterbukaan, transparansi, dan keberagaman.
-- Adakan forum komunikasi seperti town hall atau sesi feedback untuk mendengarkan suara karyawan.
+  - Perkuat nilai-nilai keterbukaan, transparansi, dan keberagaman.
+  - Adakan forum komunikasi seperti town hall atau sesi feedback untuk mendengarkan suara karyawan.
 
 Dengan menerapkan langkah-langkah ini, Jaya Jaya Maju dapat mengurangi attrition secara signifikan, meningkatkan loyalitas karyawan, serta menciptakan lingkungan kerja yang produktif dan berkelanjutan.
