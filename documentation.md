@@ -35,6 +35,8 @@ Untuk menjawab permasalahan di atas, proyek ini memiliki dua fokus utama:
 
 ## Business Dashboard
 
+![Dashboard]("D:\Study_Base\00 A LASKAR AI\Dicoding - K. Belajar Penerapan Data Science\ProyekPertama\images\alouvre-dashboard01.png")
+
 Dashboard ini dibangun menggunakan Metabase dan dirancang untuk menganalisis employee attrition (tingkat keluar-masuk karyawan) di perusahaan. Analisis ini dilakukan berdasarkan berbagai faktor penting yang memengaruhi keputusan karyawan untuk bertahan atau mengundurkan diri. Dashboard menyajikan sejumlah visualisasi utama sebagai berikut:
 
 ### Metrik Utama
@@ -115,12 +117,12 @@ Berdasarkan hasil analisis dan prediksi, berikut adalah beberapa rekomendasi str
 
 6. Integrasikan Dashboard Monitoring ke HR Operation
 
-    - Gunakan dashboard sebagai alat utama dalam evaluasi dan pengambilan keputusan HR.
-    - Latih staf HR untuk menganalisis data dan menyusun strategi berbasis visualisasi yang tersedia.
+   - Gunakan dashboard sebagai alat utama dalam evaluasi dan pengambilan keputusan HR.
+   - Latih staf HR untuk menganalisis data dan menyusun strategi berbasis visualisasi yang tersedia.
 
 7. Bangun Budaya Organisasi yang Inklusif dan Adaptif
 
-    - Perkuat nilai-nilai keterbukaan, transparansi, dan keberagaman.
-    - Adakan forum komunikasi seperti town hall atau sesi feedback untuk mendengarkan suara karyawan.
+   - Perkuat nilai-nilai keterbukaan, transparansi, dan keberagaman.
+   - Adakan forum komunikasi seperti town hall atau sesi feedback untuk mendengarkan suara karyawan.
 
 Dengan menerapkan langkah-langkah ini, Jaya Jaya Maju dapat mengurangi attrition secara signifikan, meningkatkan loyalitas karyawan, serta menciptakan lingkungan kerja yang produktif dan berkelanjutan.
