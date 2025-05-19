@@ -2,7 +2,7 @@
 
 Proyek ini bertujuan untuk menyelesaikan masalah attrition (pengunduran diri karyawan) di sebuah perusahaan bernama Jaya Jaya Maju dengan pendekatan berbasis data: eksplorasi data, dashboard bisnis dengan Metabase, dan pemodelan machine learning.
 
-[Video presentasi klik disini]("https://drive.google.com/file/d/1g2O-PaZjMTQguSHtJjHE7G8SjswFN4sZ/view?usp=sharing")
+[Video presentasi klik disini](https://drive.google.com/file/d/1g2O-PaZjMTQguSHtJjHE7G8SjswFN4sZ/view?usp=sharing)
 
 <br>
 
